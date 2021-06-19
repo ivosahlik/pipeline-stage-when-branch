@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('init') {
             steps {
-                echo '${env.BRANCH}'
+                echo 'Hello'
             }
         }
         stage('Build Master') {
